@@ -25,7 +25,7 @@ namespace IntecWeb
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("INTEC");
-            services.AddDbContextPool<IntecContext>(option => option.UseSqlServer(connectionString));
+            services.AddDbContextPool < IntecContext > (option => option.UseSqlServer(connectionString));
             services.AddControllersWithViews();
         }
 
