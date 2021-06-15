@@ -25,7 +25,7 @@ namespace Intec
 
         void getSubjects()
         {
-            string connString = "Server=OCTAVIO-LAPTOP;Database=INTEC;User Id=intec;Password=intec;";
+            string connString = "Server=OCTAVIOPATX3923;Database=INTEC;User Id=intec;Password=intec;";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 SqlCommand sqlCommand = new SqlCommand("sp_subjects", sqlConnection);
