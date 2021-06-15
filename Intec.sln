@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intec", "Intec.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "..\Web\Web.csproj", "{60211C4B-7231-45ED-B218-3241CED15599}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntecWeb", "IntecWeb\IntecWeb.csproj", "{97BC93E3-643D-4095-9A03-E61D472D9E5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{60211C4B-7231-45ED-B218-3241CED15599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60211C4B-7231-45ED-B218-3241CED15599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60211C4B-7231-45ED-B218-3241CED15599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BC93E3-643D-4095-9A03-E61D472D9E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BC93E3-643D-4095-9A03-E61D472D9E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BC93E3-643D-4095-9A03-E61D472D9E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BC93E3-643D-4095-9A03-E61D472D9E5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
